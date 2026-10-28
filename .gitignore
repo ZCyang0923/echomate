@@ -1,0 +1,32 @@
+# 密钥与本地数据绝不能提交
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+data/*
+!data/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+chroma/
+uploads/
+caches/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+
+# 临时导出
+exports/
+*.log
+pip-*/
+.uv-cache/
+pytest-of-*/
+torchinductor_*/
+converted_for_website*/

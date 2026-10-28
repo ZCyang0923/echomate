@@ -1,0 +1,17 @@
+[theme]
+base = "light"
+primaryColor = "#5D7CF6"
+backgroundColor = "#F3F8FE"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1C2D4D"
+font = "sans serif"
+
+[server]
+maxUploadSize = 10
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showSidebarNavigation = false
+toolbarMode = "minimal"
